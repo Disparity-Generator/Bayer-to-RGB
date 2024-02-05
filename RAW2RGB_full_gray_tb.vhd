@@ -110,8 +110,8 @@ architecture ARCH of RAW2RGB_FULL_GRAY_TB is
 
   signal result_image                                         : out_memory;
 
-  constant c_filename_image1                                  : string := "C:\Users\Schul\Entwicklung\QuartusProjekte\Abschlussprojekt\RAW2RGB\bild2.csv";
-  constant c_filename_out                                     : string := "C:\Users\Schul\Entwicklung\QuartusProjekte\Abschlussprojekt\RAW2RGB\out2.ppm";
+  constant c_filename_image1                                  : string := "SOURCE.csv";
+  constant c_filename_out                                     : string := "TARGET.ppm";
 
   file fptr                                                   : text;
   -- signal test_string : string(1 to 1);
